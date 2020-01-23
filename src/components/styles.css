@@ -663,7 +663,7 @@ pre {
 .leftArrow {
   display: block;
   margin: 0px;
-  color: rgb(157, 170, 182);
+  color: rgb(153, 153, 153);
   flex: 0 0 auto;
   font-size: 24px;
   transition: color 200ms ease 0s;
@@ -732,7 +732,7 @@ pre {
   padding-left: 16px;
   display: block;
   margin: 0px;
-  color: rgb(157, 170, 182);
+  color: rgb(153, 153, 153);
 }
 
 .nextRightWrapper {
