@@ -47,7 +47,6 @@
 
 /* Reset */
 
-// Reset box sizing to border box
 html {
   box-sizing: border-box;
 }
@@ -58,13 +57,11 @@ html {
   box-sizing: border-box;
 }
 
-// Remove figure margin
 figure,
 body {
   margin: 0;
 }
 
-// scrollbar
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -72,14 +69,12 @@ body {
   background-color: transparent;
 }
 
-// Keep font the same size
 @media screen and (max-device-width: 480px) {
   body {
     -webkit-text-size-adjust: none;
   }
 }
 
-// Delete outline
 * {
   outline: none !important;
 }
@@ -556,7 +551,7 @@ pre {
   display: flex;
   align-items: center;
   position: relative;
-  width: 100%;
+
   padding-right: 35px;
   padding-left: 15px;
 }
