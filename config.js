@@ -1,7 +1,7 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/",
-		"siteUrl": "https://name-to-notes.laurosilva.com",
+		"siteUrl": "https://goodnotes.laurosilva.com",
 		"gaTrackingId": null
 	},
 	"header": {
@@ -37,11 +37,11 @@ const config = {
 		"ignoreIndex": true,
 	},
 	"siteMetadata": {
-		"title": "Goog Notes | NameOfNotes",
+		"title": "Good Notes | Template",
 		"description": "Documentation for Good Notes. Powering laurosilva.com ",
 		"ogImage": null,
 		"docsLocation": "https://github.com/laurosilvacom/goodnotestemplate",
-		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
+		"favicon": ""
 	},
 	"pwa": {
 		"enabled": false, // disabling this will also remove the existing service worker.

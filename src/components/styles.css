@@ -157,7 +157,6 @@ details[open] summary {
   border: 1px solid var(--accents-3);
   border-radius: 4px;
   width: 36px;
-  height: 33px;
   position: absolute;
   right: 20px;
   padding: 8px 5px;
@@ -203,7 +202,7 @@ details[open] summary {
   align-items: center;
 }
 .divider {
-  height: 30px;
+  height: 20px;
   margin: 0 15px;
   border-right: 0px solid rgba(255, 255, 255, 0.3);
 }
@@ -429,7 +428,6 @@ details[open] summary {
 }
 pre {
   border: 0px solid #000 !important;
-  padding: 20px;
   background: var(--accents-8) !important;
 }
 
@@ -614,8 +612,7 @@ pre {
 }
 
 .gitBtn {
-  height: 30px;
-  min-height: 30px;
+  height: 20px;
   display: flex;
   align-items: center;
 }
@@ -970,7 +967,7 @@ h6 {
 .pre {
   font-size: 14px;
   margin: 0px;
-  padding: 10px;
+  padding: 10px 15px;
   overflow: auto;
   border-radius: 0.2rem;
   font-family: var(--font-mono);
