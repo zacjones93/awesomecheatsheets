@@ -33,7 +33,7 @@ const ListItem = styled(({ className, active, level, ...props }) => {
     ${props =>
       props.active &&
       `
-      color: #663399;
+      color: var(--success)
       border-color: rgb(230,236,241) !important;
       border-style: solid none solid solid;
       border-width: 1px 0px 1px 1px;
@@ -48,8 +48,6 @@ const ListItem = styled(({ className, active, level, ...props }) => {
 
 const Sidebar = styled('aside')`
   width: 100%;
-  /* background-color: rgb(245, 247, 249); */
-  /* border-right: 1px solid #ede7f3; */
   height: 100vh;
   overflow: auto;
   position: fixed;
@@ -68,11 +66,11 @@ const Sidebar = styled('aside')`
     /* position: relative; */
     height: 100vh;
   }
-  @media (min-width: 767px) and (max-width:1023px)
+  @media (min-width: 1180px) and (max-width:1023px)
   {
     padding-left: 0;
   }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 1180px) {
     padding-left: 0px;
     height: auto;
   }

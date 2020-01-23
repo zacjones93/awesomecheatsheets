@@ -10,7 +10,6 @@ const forcedNavOrder = config.sidebar.forcedNavOrder;
 const Sidebar = styled('aside')`
   width: 100%;
   background-color: #000;
-  border-left: 1px solid #ede7f3;
   height: 100vh;
   overflow: auto;
   position: fixed;
@@ -36,7 +35,7 @@ const ListItem = styled(({ className, active, level, ...props }) => {
   list-style: none;
 
   a {
-    color: #5C6975;
+    color: #999;
     text-decoration: none;
     font-weight: ${({ level }) => (level === 0 ? 700 : 400)};
     padding: 0.45rem 0 0.45rem ${props => 2 + (props.level || 0) * 1}rem;
@@ -50,7 +49,7 @@ const ListItem = styled(({ className, active, level, ...props }) => {
     ${props =>
       props.active &&
       `
-      color: #663399;
+      color: var(--success)
       border-color: rgb(230,236,241) !important;
       border-style: solid none solid solid;
       border-width: 1px 0px 1px 1px;

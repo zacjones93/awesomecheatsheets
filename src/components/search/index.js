@@ -37,11 +37,11 @@ const HitsWrapper = styled.div`
   box-shadow: 0 0 5px 0;
   padding: 0.7em 1em 0.4em;
   background: white;
-  @media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 1180px) {
     width: 400px;
     max-width: 400px;
   }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 1180px) {
     width: 100%;
     max-width: 500px;
   }
@@ -91,7 +91,7 @@ const Root = styled.div`
   position: relative;
   display: grid;
   grid-gap: 1em;
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 1180px) {
     width: 100%;
   }
 `

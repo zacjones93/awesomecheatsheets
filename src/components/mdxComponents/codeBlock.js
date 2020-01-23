@@ -1,6 +1,6 @@
 import * as React from "react";
 import Highlight, { defaultProps } from "prism-react-renderer";
-import prismTheme from "prism-react-renderer/themes/vsDark";
+import prismTheme from "prism-react-renderer/themes/palenight";
 import Loadable from 'react-loadable';
 import LoadingProvider from './loading';
 import '../styles.css';
@@ -38,7 +38,7 @@ const CodeBlock = ({ children: exampleCode, ...props }) => {
         theme={prismTheme}
       >
         {({ className, style, tokens, getLineProps, getTokenProps }) => (
-          <pre className={className + ' pre'} style={style} p={3}>
+          <pre className={className + ''} style={style} p={3}>
             {cleanTokens(tokens).map((line, i) => {
               let lineClass = {};
               let isDiff = false;

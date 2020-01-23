@@ -14,6 +14,17 @@ const plugins = [
   'gatsby-plugin-remove-trailing-slashes',
   'gatsby-plugin-react-helmet',
   {
+    resolve: `gatsby-plugin-prefetch-google-fonts`,
+    options: {
+      fonts: [
+        {
+          family: `IBM Plex Mono`,
+          variants: [`400`, `600`],
+        },
+      ],
+    },
+  },
+  {
     resolve: "gatsby-source-filesystem",
     options: {
       name: "docs",
