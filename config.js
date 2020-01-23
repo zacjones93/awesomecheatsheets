@@ -24,11 +24,11 @@ const config = {
 	},
 	"sidebar": {
 		"forcedNavOrder": [
-			"/introduction",
-    		"/codeblock"
+			"/configuration",
+    		"/configuration"
 		],
     	"collapsedNav": [
-      		"/codeblock"
+      		"/configuration"
     	],
 		"links": [
 			{ "text": "Lauro Silva", "link": "https://laurosilva.com"},
