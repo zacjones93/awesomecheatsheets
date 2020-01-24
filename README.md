@@ -1,7 +1,7 @@
 <div align="center">
   <img
-    height="90"
-    width="90"
+    height="300"
+    width="300"
     alt="Awesome Cheatsheets Logo"
     src="https://raw.githubusercontent.com/laurosilvacom/awesomecheatsheets/master/static/icon.png"
     align="center"
