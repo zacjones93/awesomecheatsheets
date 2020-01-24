@@ -1,7 +1,7 @@
 :root {
   /* Main Colors */
   --light-color: #ffffff;
-  --dark-color: rgb(0, 0, 0);
+  --dark-color: #000000;
 
   /* Selection Color */
   --selection: var(--alert-color);
@@ -346,7 +346,7 @@ details[open] summary {
 
 /* Header section starts here */
 .navBarDefault {
-  background-color: #000000;
+  background-color: var(--dark-color);
   border-radius: 0;
   border-top: 0;
   margin-bottom: 0;

@@ -24,10 +24,12 @@ const config = {
 	},
 	"sidebar": {
 		"forcedNavOrder": [
-			"/GraphQL-Query-Language"
+			"/GraphQL-Query-Language",
+			"/Composable-Gatsby-Themes"
 		],
     	"collapsedNav": [
-      		"/GraphQL-Query-Language"
+			  "/GraphQL-Query-Language",
+			  "/Composable-Gatsby-Themes"
     	],
 		"links": [
 			{ "text": "Repo", "link": "https://github.com/laurosilvacom/awesomecheatsheets"},
