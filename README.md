@@ -1,9 +1,26 @@
-## Good Notes Template
+<div align="center">
+  <img
+    height="90"
+    width="90"
+    alt="Awesome Cheatsheets Logo"
+    src="/icon.png"
+    align="center"
+  />
+</div>
 
-This a Gatsby Starter with the single goal of organizing and publishing good notes.
+This is a community led site to showcase awesome cheasheets created from egghead courses. This is meant to be a community resource, so feel free to contribute by adding your notes/cheatsheets.
 
-See a live version here: https://goodnotes.laurosilva.com/
+- How contribute [pending]
+- [Ask](https://github.com/laurosilvacom/awesomecheatsheets/issues/new)
 
-It contains all the documentation to get started.☝️
+## Quickstart
 
-This was a forked of [gatsby-gitbook-starter](https://github.com/hasura/gatsby-gitbook-starter). Feel free to fork it, submit a PR or add further features.
+Get started by running the following commands:
+
+```
+$ git clone git@github.com:laurosilvacom/awesomecheatsheets.git
+$ npm install
+$ npm start
+```
+
+Visit `http://localhost:8000/` to view the app.

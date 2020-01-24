@@ -1,16 +1,16 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/",
-		"siteUrl": "https://goodnotes.laurosilva.com",
+		"siteUrl": "https://awesomecheatsheets.com",
 		"gaTrackingId": null
 	},
 	"header": {
 		"logo": "",
 		"logoLink": "/",
-		"title": "Good Notes Template",
-		"githubUrl": "https://github.com/laurosilvacom/goodnotestemplate",
-		"helpUrl": "",
-		"tweetText": "",
+		"title": "Awesome Cheatsheets",
+		"githubUrl": "https://github.com/laurosilvacom/awesomecheatsheets",
+		"helpUrl": "https://github.com/laurosilvacom/awesomecheatsheets/issues/new",
+		"tweetText": "Check out the community led cheatsheets for @eggheadio courses! 🤓 https://AwesomeCheatsheets.com by @laurosilvacom",
 		"links": [
 			{ "text": "", "link": ""}
 		],
@@ -31,17 +31,17 @@ const config = {
       		"/configuration"
     	],
 		"links": [
-			{ "text": "Lauro Silva", "link": "https://laurosilva.com"},
+			{ "text": "Repo", "link": "https://github.com/laurosilvacom/awesomecheatsheets"},
 		],
 		"frontline": false,
 		"ignoreIndex": true,
 	},
 	"siteMetadata": {
-		"title": "Good Notes | Template",
-		"description": "Documentation for Good Notes. Powering laurosilva.com ",
-		"ogImage": null,
-		"docsLocation": "https://github.com/laurosilvacom/goodnotestemplate",
-		"favicon": ""
+		"title": "Awesome Cheatsheets",
+		"description": "Community led cheatsheets for Egghead courses",
+		"ogImage": "/hero.png",
+		"docsLocation": "https://github.com/laurosilvacom/awesomecheatsheets/tree/master/content",
+		"favicon": "/icon.png"
 	},
 	"pwa": {
 		"enabled": false, // disabling this will also remove the existing service worker.
@@ -55,7 +55,7 @@ const config = {
 			"crossOrigin": "use-credentials",
 			icons: [
 				{
-					src: "src/pwa-512.png",
+					src: "src/icon.png",
 					sizes: `512x512`,
 					type: `image/png`,
 				},

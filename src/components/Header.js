@@ -58,7 +58,7 @@ const Header = ({location}) => (
         }
         `}
     render={(data) => {
-      const logoImg = require('./images/logolight.svg');
+      const logoImg = require('./images/logo.svg');
       const twitter = require('./images/twitter.svg');
       const {
         site: {
@@ -79,9 +79,9 @@ const Header = ({location}) => (
             <div className={'navBarHeader'}>
               <Link to={finalLogoLink} className={'navBarBrand'}>
                 <img className={'img-responsive displayInline'} style={{"height" : "30px"}} src={logoImg} alt={'logo'} />
+                <div className={"headerTitle displayInline"} dangerouslySetInnerHTML={{__html: headerTitle}} />
               </Link>
         
-              <div className={"headerTitle displayInline"} dangerouslySetInnerHTML={{__html: headerTitle}} />
               <span onClick={myFunction} className={'navBarToggle'}>
                 <span className={'iconBar'}></span>
                 <span className={'iconBar'}></span>
