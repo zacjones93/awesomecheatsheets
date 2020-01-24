@@ -3,7 +3,7 @@
     height="90"
     width="90"
     alt="Awesome Cheatsheets Logo"
-    src="/icon.png"
+    src="https://raw.githubusercontent.com/laurosilvacom/awesomecheatsheets/master/static/icon.png"
     align="center"
   />
 </div>

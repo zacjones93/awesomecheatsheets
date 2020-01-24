@@ -1,5 +1,5 @@
 ---
-title: "Search Configuration"
+title: "1. Send a Query with GraphQL Playground"
 metaTitle: "Search Configuration for Good Notes Template"
 metaDescription: "This is the meta description for this page"
 ---

@@ -35,7 +35,7 @@ const MaxWidth = styled('div')`
   }
 `;
 const LeftSideBarWidth = styled('div')`
-  width: 298px;
+  width: 420px;
 `;
 const RightSideBarWidth = styled('div')`
   width: 224px;
