@@ -16,7 +16,7 @@ const Wrapper = styled('div')`
 `;
 
 const Content = styled('main')`
-
+  max-width: 1100px;
   margin-top: 3rem;
 
   @media only screen and (max-width: 1023px) {

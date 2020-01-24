@@ -1,19 +1,39 @@
 ---
 title: "1. Send a Query with GraphQL Playground"
-metaTitle: "Search Configuration for Good Notes Template"
-metaDescription: "This is the meta description for this page"
+metaTitle: "1. Send a Query with GraphQL Playground"
+metaDescription: "Learn how to send a Query with GraphQL Playground."
 ---
 
-To setup Algolia, go to `config.js` and update the `search` object to look like the one below:
+[Video Link](https://egghead.io/lessons/graphql-send-a-query-with-graphql-playground)
 
-```
-"search": {
-	"enabled": true,
-	"indexName": "MY_INDEX_NAME",
-	"algoliaAppId": process.env.GATSBY_ALGOLIA_APP_ID,
-	"algoliaSearchKey": process.env.GATSBY_ALGOLIA_SEARCH_KEY,
-	"algoliaAdminKey": process.env.ALGOLIA_ADMIN_KEY
-},
+In this lesson, we send a query to obtain the total number of pets registered at the Pet Library.
+
+When we go to this route `https://pet-library.moonhighway.com` a tool called GraphQL Playground will pop up in the browser.
+
+**GraphQL Playground** is an in-browser IDE that lets you send queries to GraphQL endpoints.
+
+With GraphQL, there's only one endpoint, so you need to specify the data that you want by writing a query on the left-hand side of the screen.
+
+```graphql
+query {
+  totalPets
+}
 ```
 
-Values for Algolia App ID, Search Key, and Admin Key can be obtained from Algolia Dashboard with the right set of permissions. Replace `MY_INDEX_NAME` with the Algolia Index name of your choice. To build the Algolia index, you need to run `npm run build` which will do a gatsby build along with content indexing in Algolia.
+When clicking play the data returned is JSON. It matches the shape of the response exactly. All of the feels are the same:
+
+```json
+{
+  "data": {
+    "totalPets": 25
+  }
+}
+```
+
+## Resources
+
+- [Introduction to GraphQL (official website)](https://graphql.org/learn/)
+
+- [What is GraphQL? (video)](https://www.youtube.com/watch?v=VjXb3PRL9WI)
+
+- [GraphQL? Here is what you need to know! (podcast)](https://syntax.fm/show/027/graphql-here-is-what-you-need-to-know)

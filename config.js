@@ -24,11 +24,10 @@ const config = {
 	},
 	"sidebar": {
 		"forcedNavOrder": [
-			"/configuration",
-    		"/configuration"
+			"/GraphQL-Query-Language"
 		],
     	"collapsedNav": [
-      		"/configuration"
+      		"/GraphQL-Query-Language"
     	],
 		"links": [
 			{ "text": "Repo", "link": "https://github.com/laurosilvacom/awesomecheatsheets"},
@@ -39,9 +38,9 @@ const config = {
 	"siteMetadata": {
 		"title": "Awesome Cheatsheets",
 		"description": "Community led cheatsheets for Egghead courses",
-		"ogImage": "/hero.png",
+		"ogImage": "https://awesomecheatsheets.com/hero.png",
 		"docsLocation": "https://github.com/laurosilvacom/awesomecheatsheets/tree/master/content",
-		"favicon": "/icon.png"
+		"favicon": "https://awesomecheatsheets.com/icon.png"
 	},
 	"pwa": {
 		"enabled": false, // disabling this will also remove the existing service worker.
