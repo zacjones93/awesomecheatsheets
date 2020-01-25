@@ -19,19 +19,20 @@ const Edit = styled('div')`
     font-weight: 500;
     line-height: 1em;
     text-decoration: none;
-    color: #555;
-    border: 1px solid white;
+    color: #999;
+    border: 1px solid #999;
     cursor: pointer;
     border-radius: 3px;
     transition: all 0.2s ease-out 0s;
     text-decoration: none;
-    color: white;
+    color: #999;
     background-color: none;
     height: 30px;
     padding: 5px 16px;
-    max-width: 150px;
+    max-width: 160px;
     &:hover {
-      background-color: rgb(245, 247, 249);
+      border: 1px solid white;
+      color: white;
     }
   }
 `;
