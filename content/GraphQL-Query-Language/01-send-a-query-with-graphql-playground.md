@@ -1,10 +1,16 @@
 ---
-title: "1. Send a Query with GraphQL Playground"
-metaTitle: "1. Send a Query with GraphQL Playground"
+title: "01. Send a Query with GraphQL Playground"
+metaTitle: "01. Send a Query with GraphQL Playground"
 metaDescription: "Learn how to send a Query with GraphQL Playground."
 ---
 
 [Video Link](https://egghead.io/lessons/graphql-send-a-query-with-graphql-playground)
+
+## Summary
+
+In this lesson, we will send a query to obtain the total number of pets registered at the Pet Library.
+
+## Notes
 
 In this lesson, we send a query to obtain the total number of pets registered at the Pet Library.
 
@@ -29,6 +35,10 @@ When clicking play the data returned is JSON. It matches the shape of the respon
   }
 }
 ```
+
+## Personal Take
+
+It's important to understand that GraphQL isn't tied to any specific database or storage engine and is instead backed by your existing code and data.
 
 ## Resources
 

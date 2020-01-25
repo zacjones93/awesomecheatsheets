@@ -1,7 +1,7 @@
 ---
-title: 'Composable Gatsby Themes'
-metaTitle: 'Composable Gatsby Themes | Awesome Cheatsheets'
-metaDescription: 'Awesome cheatsheet for the Composable Gatsby Themes course'
+title: "Composable Gatsby Themes"
+metaTitle: "Composable Gatsby Themes | Awesome Cheatsheets"
+metaDescription: "Awesome cheatsheet for the Composable Gatsby Themes course"
 ---
 
 ## About
