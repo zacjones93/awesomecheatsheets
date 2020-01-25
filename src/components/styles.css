@@ -588,10 +588,12 @@ pre {
 }
 
 .titleWrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   align-items: center;
   padding-bottom: 40px;
   margin-bottom: 32px;
+  max-width: 750px;
 }
 
 .title {
@@ -619,7 +621,7 @@ pre {
 }
 
 .addPaddTopBottom {
-  padding: 50px 0;
+  padding: 10px;
   max-width: 750px;
 }
 

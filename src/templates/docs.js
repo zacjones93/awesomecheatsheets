@@ -11,7 +11,7 @@ import config from '../../config';
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
 const Edit = styled('div')`
-  padding: 1rem 1.5rem;
+  padding: 1rem 0;
   text-align: right;
 
   a {
@@ -20,15 +20,16 @@ const Edit = styled('div')`
     line-height: 1em;
     text-decoration: none;
     color: #555;
-    border: 1px solid rgb(211, 220, 228);
+    border: 1px solid white;
     cursor: pointer;
     border-radius: 3px;
     transition: all 0.2s ease-out 0s;
     text-decoration: none;
-    color: rgb(36, 42, 49);
-    background-color: rgb(255, 255, 255);
+    color: white;
+    background-color: none;
     height: 30px;
     padding: 5px 16px;
+    max-width: 150px;
     &:hover {
       background-color: rgb(245, 247, 249);
     }
