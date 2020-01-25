@@ -78,7 +78,6 @@ const Header = ({location}) => (
           <nav className={'navBarDefault'}>
             <div className={'navBarHeader'}>
               <Link to={finalLogoLink} className={'navBarBrand'}>
-                <img className={'img-responsive displayInline'} style={{"height" : "30px"}} src={logoImg} alt={'logo'} />
                 <div className={"headerTitle displayInline"} dangerouslySetInnerHTML={{__html: headerTitle}} />
               </Link>
         

@@ -354,7 +354,7 @@ details[open] summary {
   display: flex;
   align-items: center;
   z-index: 1;
-  padding: 15px;
+  padding: 20px;
   position: relative;
 }
 .navBarHeader {
@@ -396,6 +396,7 @@ details[open] summary {
 .navBarUL li a img,
 .navBarUL li a .shareIcon {
   width: 20px;
+  margin: 2px;
 }
 .mainWrapper {
   color: var(--accents-3);
@@ -623,6 +624,7 @@ pre {
 .addPaddTopBottom {
   padding: 10px;
   max-width: 750px;
+  margin-bottom: 2rem;
 }
 
 .nextPreviousWrapper {
@@ -1014,7 +1016,12 @@ h6 {
   .topnav.responsive .navBarUL {
     display: block;
     text-align: left;
-    padding: 10px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: baseline;
+    max-width: 200px;
   }
   .hiddenMobile {
     display: none !important;
@@ -1069,17 +1076,17 @@ h6 {
   }
 
   .titleWrapper {
-    padding: 0 15px;
+    padding: 0 20px;
     display: block;
   }
 
   .mainWrapper {
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .nextPreviousWrapper {
     display: block;
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .previousBtn {
