@@ -25,11 +25,13 @@ const config = {
 	"sidebar": {
 		"forcedNavOrder": [
 			"/GraphQL-Query-Language",
-			"/Composable-Gatsby-Themes"
+			"/Composable-Gatsby-Themes",
+			"/Automate-Daily-Development-Tasks-Bash"
 		],
     	"collapsedNav": [
-			  "/GraphQL-Query-Language",
-			  "/Composable-Gatsby-Themes"
+			"/GraphQL-Query-Language",
+			"/Composable-Gatsby-Themes",
+			"/Automate-Daily-Development-Tasks-Bash"
     	],
 		"links": [
 			{ "text": "Repo", "link": "https://github.com/laurosilvacom/awesomecheatsheets"},
