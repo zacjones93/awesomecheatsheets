@@ -1,4 +1,4 @@
-This is a community led site to showcase awesome cheasheets created from egghead courses. This is meant to be a community resource, so feel free to contribute by adding your notes/cheatsheets.
+This is a community led site to showcase awesome cheasheets created from egghead courses.
 
 <div align="center">
   <img
@@ -12,15 +12,13 @@ This is a community led site to showcase awesome cheasheets created from egghead
 
 ## How to contribute
 
-We are actively looking for contributors and maintainers, so you are more than welcome.
-
-Some core principles that we will follow so that this repo doesn't get too wild.
+We are actively looking for contributors and maintainers, so you are more than welcome. Some core principles that we will follow so that this repo doesn't get too wild.
 
 - This repo hosts cheatsheets for egghead course only.
 - One cheatsheet per course.
 - One document for each lesson in the course.
   - Each lesson includes notes that follow the same structure of the lesson/transcript, additional rewrites, links to resources, and your personal take on the lesson.
-- If a course has already been covered, feel free to submit additions. But please don't remove anything (unless we messed up or misunderstood something, our you consider important adding additional resources).
+- If a course has already been covered, feel free to submit additions. But please don't remove anything (unless we messed up or misunderstood something, or you consider important adding additional resources).
 
 That's all I've got! Again, really happy you are thinking about helping out, who knows, the person who you might be helping is yourself in future!
 
@@ -36,7 +34,7 @@ $ npm start
 
 Visit `http://localhost:8000/` to view the app.
 
-At the root of the folder `content`, add the index file for your cheatsheet. Next, create a folder with the same name structure. Inside your folder you’ll add a document for each lesson.
+At the root of the folder `content`, add the index file for your cheatsheet. Next, create a folder with the same name. Inside your folder you’ll add a `.md` document for each lesson.
 
 Link to the repository from `/content/index.md`.
 
@@ -48,8 +46,6 @@ Final step is to add force collapse. Go into `config.js` and add the name of you
 			  "/Composable-Gatsby-Themes"
     	],
 ```
-
-That’s it!
 
 ## Questions
 
