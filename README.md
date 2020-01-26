@@ -46,11 +46,11 @@ Link to the repository from `/content/index.md`.
 
 Final step is to add force collapse. Go into `config.js` and add the name of your folder inside `collapsedNav`.
 
-```json
+```
 "collapsedNav": [
-			  "/GraphQL-Query-Language",
-			  "/Composable-Gatsby-Themes"
-    	],
+  "/GraphQL-Query-Language",
+  "/Composable-Gatsby-Themes"
+],
 ```
 
 ## Questions
