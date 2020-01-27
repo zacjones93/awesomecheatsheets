@@ -1,4 +1,4 @@
-This is a community led site to showcase awesome cheasheets created from egghead courses. This is meant to be a community resource, so feel free to contribute by adding your notes/cheatsheets.
+This is a community led site to showcase awesome cheatsheets created from egghead courses. This is meant to be a community resource, so feel free to contribute by adding your notes/cheatsheets.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
