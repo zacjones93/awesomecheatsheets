@@ -1,7 +1,9 @@
 This is a community led site to showcase awesome cheatsheets created from egghead courses. This is meant to be a community resource, so feel free to contribute by adding your notes/cheatsheets.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <div align="center">
@@ -51,6 +53,25 @@ Final step is to add `force collapse`. Go into `config.js` and add the name of y
 ],
 ```
 
+## Add Author Component
+
+To add an author component from inside the main file for your cheatsheet, first import the `CheetsheatAuthor` component.
+
+```
+import CheatsheetAuthor from '../src/CheatsheetAuthor.js';
+```
+
+Then add the component in the same `*.md` file, following this structure.
+
+```
+<CheatsheetAuthor
+    name="Lauro Silva"
+    twitterUrl="https://twitter.com/laurosilvacom"
+    githubUrl="https://github.com/laurosilvacom"
+    description="Software Engineer"
+/>
+```
+
 ## Questions
 
 - If you see anything wrong or missing, please file an [issue](https://github.com/laurosilvacom/awesomecheatsheets/issues/new).
@@ -72,6 +93,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
