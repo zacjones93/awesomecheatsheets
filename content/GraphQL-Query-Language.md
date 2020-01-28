@@ -42,3 +42,10 @@ What you'll learn
     githubUrl="https://github.com/laurosilvacom"
     description="Software Engineer"
 />
+
+<CheatsheetAuthor 
+    name="Nicole Sattler"
+    twitterUrl="https://twitter.com/nikkilr88"
+    githubUrl="https://github.com/nikkilr88"
+    description="JavaScript Developer"
+/>
