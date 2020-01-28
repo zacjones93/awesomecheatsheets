@@ -622,9 +622,9 @@ pre {
 }
 
 .addPaddTopBottom {
-  padding: 10px;
   max-width: 750px;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .nextPreviousWrapper {
@@ -828,28 +828,38 @@ img {
   align-items: center;
 }
 .authorImg img {
-  width: 75px;
-  height: 75px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
-  min-width: 75px;
-  max-width: 75px;
-  min-height: 75px;
-  max-height: 75px;
+  min-width: 55px;
+  max-width: 55px;
+  min-height: 55px;
+  max-height: 55px;
 }
 .authorDetails {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 .authorDesc {
   padding-top: 5px;
   font-size: 14px;
 }
-.authorName img {
+.authorName svg {
+  fill: white;
+}
+.authorName svg {
   margin-left: 10px;
   display: inline-block;
   width: 20px;
 }
-.authorName img:hover {
+.authorName svg:hover {
   opacity: 0.7;
+}
+.authorLink {
+  text-decoration: none;
+  border-bottom: 0px solid #fff !important;
+}
+.authorLink:hover {
+  text-decoration: none;
 }
 h1 {
   line-height: 1.5;

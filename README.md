@@ -44,7 +44,7 @@ At the root of the folder `content`, add the index file for your cheatsheet. Nex
 
 Link to the repository from `/content/index.md`.
 
-Final step is to add force collapse. Go into `config.js` and add the name of your folder inside `collapsedNav`.
+Final step is to add `force collapse`. Go into `config.js` and add the name of your folder inside `collapsedNav`.
 
 ```
 "collapsedNav": [

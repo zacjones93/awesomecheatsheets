@@ -4,6 +4,8 @@ metaTitle: "GraphQL Query Language | Awesome Cheatsheets"
 metaDescription: "Awesome cheatsheet for the GraphQL Query Language course"
 ---
 
+import CheatsheetAuthor from '../src/CheatsheetAuthor.js';
+
 ## About
 
 This repo contains notes from [Eve Porcello](https://twitter.com/eveporcello)'s [GraphQL Query Language course](https://egghead.io/lessons/gatsby-set-up-a-shopify-account).
@@ -31,3 +33,12 @@ What you'll learn
 ### Notice
 
 ⚠️ Each section contains a link to the video.
+
+## Cheatsheet by
+
+<CheatsheetAuthor 
+    name="Lauro Silva"
+    twitterUrl="https://twitter.com/laurosilvacom"
+    githubUrl="https://github.com/laurosilvacom"
+    description="Software Engineer"
+/>
