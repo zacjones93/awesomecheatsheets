@@ -6,7 +6,9 @@ metaDescription: 'Capture Application Logic in Pure Functions to Create Immutabl
 
 # The problem (and solution) on deep immutable state updates
 
-## 02. [Capture Application Logic in Pure Functions to Create Immutable State](https://egghead.io/lessons/javascript-capture-application-logic-in-pure-functions-to-create-immutable-state)
+## 02. Capture Application Logic in Pure Functions to Create Immutable State
+
+[Video](https://egghead.io/lessons/javascript-capture-application-logic-in-pure-functions-to-create-immutable-state)
 
 Maintaining immutability is a pain when you have to spread objects all the way down to the level that you want to update a property.
 
