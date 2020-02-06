@@ -4,7 +4,9 @@ metaTitle: '04. Produces Immutable Data and Avoid Unnecessary Creation of New Da
 metaDescription: 'Immer can automatically freeze all of your data and prevent you from creating new state trees'
 ---
 
-## 07. [Produces Immutable Data and Avoid Unnecessary Creation of New Data Trees with Immer](https://egghead.io/lessons/javascript-produces-immutable-data-and-avoid-unnecessary-creation-of-new-data-trees-with-immer)
+## 07. Produces Immutable Data and Avoid Unnecessary Creation of New Data Trees with Immer
+
+[Video](https://egghead.io/lessons/javascript-produces-immutable-data-and-avoid-unnecessary-creation-of-new-data-trees-with-immer)
 
 In the immutable data paradigm, it is **quite important that we don’t accidentally change the data** somewhere. **It would break the paradigm** in ways that are very hard to debug.
 
