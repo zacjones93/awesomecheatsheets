@@ -6,7 +6,9 @@ metaDescription: 'An Immer producer should modify the draft, or it should return
 
 # Return new state and Prevent unwanted returns
 
-## 09. [Return Completely New State from an Immer Producer](https://egghead.io/lessons/react-return-completely-new-state-from-an-immer-producer)
+## 09. Return Completely New State from an Immer Producer
+
+[Video](https://egghead.io/lessons/react-return-completely-new-state-from-an-immer-producer)
 
 Occasionally, you might want to **write a producer that doesn’t change the draft**, but rather **returns a completely new data set**. This can be achieved by using the **return** keyword.
 
@@ -21,7 +23,9 @@ You need to modify the original argument.
         })
       }
 
-## 10. [Avoid Accidental Returns of New State by using the void Keyword](https://egghead.io/lessons/react-avoid-accidental-returns-of-new-state-by-using-the-void-keyword)
+## 10. Avoid Accidental Returns of New State by using the void Keyword
+
+[Video](https://egghead.io/lessons/react-avoid-accidental-returns-of-new-state-by-using-the-void-keyword)
 
 A producer should always do either of two things. **Either it should modify the draft, or it should return an entirely new state, but it should never do both.**
 
