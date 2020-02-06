@@ -28,7 +28,9 @@ Right below is the intended outcomes of the course, these are the skills and kno
 
     Configure Immer
 
-## 01. [Overview](https://egghead.io/lessons/react-introduction-to-the-in-depth-immer-course)
+## 01. Overview
+
+[Video](https://egghead.io/lessons/react-introduction-to-the-in-depth-immer-course)
 
 How does Immer make tracing state over time easy? How does it simplify state manipulation?
 
