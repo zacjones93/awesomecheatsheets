@@ -86,7 +86,9 @@ Maintaining immutability is a pain when you have to spread objects all the way d
 
 [3:35](https://egghead.io/lessons/javascript-capture-application-logic-in-pure-functions-to-create-immutable-state) Finally, which means that a gift was already reserved by somebody else, we just keep it that way. We save it. Now, all our tests should succeed.
 
-## 03. [Simplify Deep State Updates using Immer produce](https://egghead.io/lessons/javascript-simplify-deep-state-updates-using-immer-produce)
+## 03. Simplify Deep State Updates using Immer produce
+
+[Video](https://egghead.io/lessons/javascript-simplify-deep-state-updates-using-immer-produce)
 
  [00:00](https://egghead.io/lessons/javascript-simplify-deep-state-updates-using-immer-produce#t=0) That stuff wasn't easy. If reading back a logic isn't trivial. For example, when you think about what's happening here, in `addGift`  is that we're just expressing that we want to add something to our collection. **But instead what we're doing, every object, every parent in that data tree, we generate a new version for that.** For toggling the reservation, it's even worse.
 
