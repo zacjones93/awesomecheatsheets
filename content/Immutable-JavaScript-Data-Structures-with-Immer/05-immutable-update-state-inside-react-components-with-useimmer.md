@@ -58,5 +58,3 @@ this time you can import a package `useImmer` that exports a hook.
     	  }
     ...
     }
-
-[<- prev](https://github.com/zacjones93/Community-Notes-Immutable-JavaScript-Data-Structures-with-Immer/blob/master/lessons/04-produces-immutable-data-and-avoid-unnecessary-creation-of-new-data-trees-with-immer.md) [next ->](https://github.com/zacjones93/Community-Notes-Immutable-JavaScript-Data-Structures-with-Immer/blob/master/lessons/06-return-new-state-and-prevent-unwanted-returns.md)
