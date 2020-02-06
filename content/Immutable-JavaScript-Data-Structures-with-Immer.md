@@ -4,6 +4,8 @@ metaTitle: "Immutable JavaScript Data Structures with Immer | Awesome Cheatsheet
 metaDescription: "Awesome cheatsheet for the Immutable JavaScript Data Structures with Immer course"
 ---
 
+import CheatsheetAuthor from '../src/CheatsheetAuthor.js';
+
 These notes are intended to be used and studied in tandem with Michel Weststrate's [Immutable JavaScript Data Structures with Immer](https://egghead.io/courses/immutable-javascript-data-structures-with-immer) self-paced workshop.
 
 Some question(s) are outlined in the essential questions section of the README for you to think about as you take the workshop. There is no 'definitive' answer to these questions but as you learn, you'll develop a more contextualized answer.
@@ -43,4 +45,13 @@ Using immutable data to store state has many interesting benefits. **Immutable d
 In this course we will build a multi user gift-list, in which we will discover how **using immer doesn’t just significantly simplifies our state manipulation code. It also provides us with very useful tools such as patches that can help us to distribute changes**, build undo/ redo, etc.
 
 ## Contribute
+
 These are community notes that I hope everyone who studies benefits from. If you notice areas that could be improved please feel free to open a PR!
+
+## Cheatsheet by
+
+<CheatsheetAuthor 
+    name="Zac Jones"
+    twitterUrl="https://twitter.com/zacjones93/"
+    githubUrl="https://github.com/zacjones93"
+/>
