@@ -6,7 +6,9 @@ metaDescription: 'patches describe the minimal difference between two versions o
 
 # Set up Immer Patches
 
-## 14. [Capture Patches to Distribute Changes in App State with Immer produceWithPatches](https://egghead.io/lessons/react-capture-patches-to-distribute-changes-in-app-state-with-immer-producewithpatches)
+## 14. Capture Patches to Distribute Changes in App State with Immer produceWithPatches
+
+[Video](https://egghead.io/lessons/react-capture-patches-to-distribute-changes-in-app-state-with-immer-producewithpatches)
 
 **patches - describe the minimal difference between two versions of the state.**
 
@@ -44,7 +46,9 @@ Access patches using the below code, it *Just Works* and now you have access to 
         })
       }, [])
 
-## 15. [Create a Simple WebSocket Server to Distribute Patches from Immer](https://egghead.io/lessons/react-create-a-simple-websocket-server-to-distribute-patches-from-immer)
+## 15. Create a Simple WebSocket Server to Distribute Patches from Immer
+
+[Video](https://egghead.io/lessons/react-create-a-simple-websocket-server-to-distribute-patches-from-immer)
 
 This course isn't really about immer but WebSocket. It will enable us to synchronize state across clients with patches.
 
@@ -63,7 +67,9 @@ When a client connects, whenever an action is made on that client, **it will als
 You send messages with `useSocket` - not the focus of the lesson.
 
 
-## 16. [Apply Patches using Immer applyPatches to Synchronize State across Clients](https://egghead.io/lessons/react-apply-patches-using-immer-applypatches-to-synchronize-state-across-clients)
+## 16. Apply Patches using Immer applyPatches to Synchronize State across Clients
+
+[Video](https://egghead.io/lessons/react-apply-patches-using-immer-applypatches-to-synchronize-state-across-clients)
 
 Now that we are receiving patches from the server, we have to apply them. Immer lets us apply patches with the `applyPatches` api
 
@@ -81,7 +87,9 @@ using the giftsReducer directly because we don't need patches for the update (al
         setState(state => giftsReducer(state, { type: "APPLY_PATCHES", patches }))
       })
 
-## 17. [Create Stable Patches in Immer by updating with Id instead of Indices](https://egghead.io/lessons/react-create-stable-patches-in-immer-by-updating-with-id-instead-of-indices)
+## 17. Create Stable Patches in Immer by updating with Id instead of Indices
+
+[Video](https://egghead.io/lessons/react-create-stable-patches-in-immer-by-updating-with-id-instead-of-indices)
 
 Our naive synchronization implementation has some flaws. In this lesson we are going to address one of them, by **changing our index-based storage to key based storage**, which enables us to better deal with synchronization issues.
 
@@ -100,7 +108,8 @@ refactor from an array to a collection of objects where the id is the key.
             reservedBy: undefined
           }
 
-## 18. [Compress the Immer Patch History by Replaying Patches on a setInterval](https://egghead.io/lessons/react-compress-the-immer-patch-history-by-replaying-patches-on-a-setinterval)
+## 18. Compress the Immer Patch History by Replaying Patches on a setInterval
+[Video](https://egghead.io/lessons/react-compress-the-immer-patch-history-by-replaying-patches-on-a-setinterval)
 
 The history on the server is ever and ever growing since we are just pushing onto an array each patch that is received.
 
