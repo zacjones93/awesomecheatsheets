@@ -1,3 +1,9 @@
+---
+title: '11. Build features with Immer patches'
+metaTitle: '11. Build features with Immer patches'
+metaDescription: 'With patches and inverse patches, you can build cool functionality like undo and redo'
+---
+
 # Build features with Immer patches
 
 ## 19. [Use Immer inversePatches to Build Undo Functionality](https://egghead.io/lessons/react-use-immer-inversepatches-to-build-undo-functionality)

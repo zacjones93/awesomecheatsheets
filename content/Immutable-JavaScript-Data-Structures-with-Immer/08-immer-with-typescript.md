@@ -1,3 +1,9 @@
+---
+title: '08. Type Immutable Immer Data with TypeScript'
+metaTitle: '08. Type Immutable Immer Data with TypeScript'
+metaDescription: 'Because the code put in recipe functions is plain, native, mutable JavaScript code, Immer is naturally suited to be used in conjunction of TypeScript (or Flow).'
+---
+
 ## 12. [Type Immutable Immer Data with TypeScript](https://egghead.io/lessons/react-type-immutable-immer-data-with-typescript)
 
 **Because the code put in recipe functions is plain, native, mutable JavaScript code, Immer is naturally suited to be used in conjunction of TypeScript (or Flow).**

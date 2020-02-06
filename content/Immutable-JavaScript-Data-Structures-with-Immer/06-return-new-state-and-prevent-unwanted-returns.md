@@ -1,3 +1,9 @@
+---
+title: '06. Return new state and Prevent unwanted returns'
+metaTitle: '06. Return new state and Prevent unwanted returns'
+metaDescription: 'An Immer producer should modify the draft, or it should return an entirely new state, but it should never do both.'
+---
+
 # Return new state and Prevent unwanted returns
 
 ## 09. [Return Completely New State from an Immer Producer](https://egghead.io/lessons/react-return-completely-new-state-from-an-immer-producer)

@@ -1,3 +1,9 @@
+---
+title: '10. Set up Immer Patches'
+metaTitle: '10. Set up Immer Patches'
+metaDescription: 'patches describe the minimal difference between two versions of the state.'
+---
+
 # Set up Immer Patches
 
 ## 14. [Capture Patches to Distribute Changes in App State with Immer produceWithPatches](https://egghead.io/lessons/react-capture-patches-to-distribute-changes-in-app-state-with-immer-producewithpatches)

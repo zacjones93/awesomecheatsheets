@@ -1,3 +1,9 @@
+---
+title: '07. Write Asynchronous Producers in Immer and Why You Shouldn’t'
+metaTitle: '07. Write Asynchronous Producers in Immer and Why You Shouldn’t'
+metaDescription: '`produce` directly supports async code so you won't have to directly use `createDraft` and `finishDraft`.'
+---
+
 # 11. [Write Asynchronous Producers in Immer and Why You Shouldn’t](https://egghead.io/lessons/react-write-asynchronous-producers-in-immer-and-why-you-shouldn-t)
 
 You can use async producers in Immer but you really shouldn't. If you can split up the async code from state updaters, you should.

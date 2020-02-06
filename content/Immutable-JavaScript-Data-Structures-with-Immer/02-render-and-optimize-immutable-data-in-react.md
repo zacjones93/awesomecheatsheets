@@ -1,3 +1,9 @@
+---
+title: '02. Render and optimize immutable data in React'
+metaTitle: '02. Render and optimize immutable data in React'
+metaDescription: "With Structural sharing, we can reuse all the pieces of the previous state that didn't change at all when we produce the next state."
+---
+
 # Render and optimize immutable data in React
 
 ## 04. [Render Immutable Data using React](https://egghead.io/lessons/react-render-immutable-data-using-react)

@@ -1,3 +1,9 @@
+---
+title: '01. Problem and Solution for Immutable Updates'
+metaTitle: '01. Problem and Solution for Immutable Updates'
+metaDescription: 'Capture Application Logic in Pure Functions to Create Immutable State.'
+---
+
 # The problem (and solution) on deep immutable state updates
 
 ## 02. [Capture Application Logic in Pure Functions to Create Immutable State](https://egghead.io/lessons/javascript-capture-application-logic-in-pure-functions-to-create-immutable-state)

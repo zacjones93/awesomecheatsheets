@@ -1,4 +1,10 @@
-## 13. [Update Immutable State with React useReducer through Immer](https://egghead.io/lessons/react-update-immutable-state-with-react-usereducer-through-immer)
+---
+title: '09. Update Immutable State with React useReducer through Immer'
+metaTitle: '09. Update Immutable State with React useReducer through Immer'
+metaDescription: 'You can use useReducer like functions with Immer!'
+---
+
+# 13. [Update Immutable State with React useReducer through Immer](https://egghead.io/lessons/react-update-immutable-state-with-react-usereducer-through-immer)
 
 Using Immer for reducers has become so popular that even React starter kits and the standardized React boilerplates both ship by default Immer to write to users in a more straightforward way.
 

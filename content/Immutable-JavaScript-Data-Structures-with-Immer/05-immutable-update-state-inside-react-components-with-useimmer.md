@@ -1,3 +1,9 @@
+---
+title: '05. Immutable Update State inside React components with useImmer'
+metaTitle: '05. Immutable Update State inside React components with useImmer'
+metaDescription: '`useImmer` is a custom hook that lets you call a state updater function without explicitly having to apply `produce` to the call as well. The hook does it for you.'
+---
+
 # 08. [Immutable Update State inside React components with useImmer](https://egghead.io/lessons/react-immutable-update-state-inside-react-components-with-useimmer)
 
 `useImmer` is a custom hook that lets you call a state updater function without explicitly having to apply `produce` to the call as well. The hook does it for you.
