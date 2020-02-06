@@ -1,10 +1,8 @@
 ---
-title: '02. Render and optimize immutable data in React'
-metaTitle: '02. Render and optimize immutable data in React'
+title: "Render and optimize immutable data in React"
+metaTitle: "Render and optimize immutable data in React"
 metaDescription: "With Structural sharing, we can reuse all the pieces of the previous state that didn't change at all when we produce the next state."
 ---
-
-# Render and optimize immutable data in React
 
 ## 04. Render Immutable Data using React
 
@@ -55,7 +53,7 @@ you now have immutable state updates with `setState` using `addGift` and `toggle
 
 Since parts of the state tree that haven’t changed compared to the previous state, are shared, we can optimize. This lesson uses the “**memo**” and “**useCallbac**k” functions from React to benefit from structural sharing.
 
-**Structural sharing -  we can reuse all the pieces of the previous state that didn't change at all when we produce the next state**
+**Structural sharing - we can reuse all the pieces of the previous state that didn't change at all when we produce the next state**
 
 because we have **Structural sharing, we can leverage that to optimize rerenders in react**
 

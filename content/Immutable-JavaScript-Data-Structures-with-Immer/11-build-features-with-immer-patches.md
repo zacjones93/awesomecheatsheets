@@ -1,10 +1,8 @@
 ---
-title: '11. Build features with Immer patches'
-metaTitle: '11. Build features with Immer patches'
-metaDescription: 'With patches and inverse patches, you can build cool functionality like undo and redo'
+title: "Build features with Immer patches"
+metaTitle: "Build features with Immer patches"
+metaDescription: "With patches and inverse patches, you can build cool functionality like undo and redo"
 ---
-
-# Build features with Immer patches
 
 ## 19. Use Immer inversePatches to Build Undo Functionality
 
@@ -40,6 +38,7 @@ Pop the patches from the stack and apply them to the current state.
 NOTE: when undoing - will need to add a flag to the undo action so that the undo won't apply that action to the undo stack (creating a loop)
 
 ## 20. Use Immer Patches to Build Redo Functionality
+
 [Video](https://egghead.io/lessons/react-use-immer-patches-to-build-redo-functionality)
 
 When you need to be able to **go forward and back in the history, you cannot just pop out items from your Undo stack**, because you need to be able to redo that. **Instead of popping items from the stack, we are going to keep a separate pointer to remember where we are in the stack, and we call that Undo stack pointer.**

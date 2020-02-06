@@ -1,7 +1,7 @@
 ---
-title: '04. Produces Immutable Data and Avoid Unnecessary Creation of New Data Trees with Immer'
-metaTitle: '04. Produces Immutable Data and Avoid Unnecessary Creation of New Data Trees with Immer'
-metaDescription: 'Immer can automatically freeze all of your data and prevent you from creating new state trees'
+title: "Produces Immutable Data and Avoid Unnecessary Creation of New Data Trees with Immer"
+metaTitle: "Produces Immutable Data and Avoid Unnecessary Creation of New Data Trees with Immer"
+metaDescription: "Immer can automatically freeze all of your data and prevent you from creating new state trees"
 ---
 
 ## 07. Produces Immutable Data and Avoid Unnecessary Creation of New Data Trees with Immer
@@ -25,4 +25,3 @@ if you weren't using immer, you could:
     nextState.gifts[1].reservedBy = undefined
 
 but immer doesn't let you.
-

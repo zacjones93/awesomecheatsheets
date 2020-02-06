@@ -1,10 +1,8 @@
 ---
-title: '06. Return new state and Prevent unwanted returns'
-metaTitle: '06. Return new state and Prevent unwanted returns'
-metaDescription: 'An Immer producer should modify the draft, or it should return an entirely new state, but it should never do both.'
+title: "Return new state and Prevent unwanted returns"
+metaTitle: "Return new state and Prevent unwanted returns"
+metaDescription: "An Immer producer should modify the draft, or it should return an entirely new state, but it should never do both."
 ---
-
-# Return new state and Prevent unwanted returns
 
 ## 09. Return Completely New State from an Immer Producer
 

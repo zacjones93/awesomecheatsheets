@@ -1,10 +1,10 @@
 ---
-title: '07. Write Asynchronous Producers in Immer and Why You Shouldn’t'
-metaTitle: '07. Write Asynchronous Producers in Immer and Why You Shouldn’t'
-metaDescription: 'produce directly supports async code so you won't have to directly use createDraft and finishDraft.'
+title: "Write Asynchronous Producers in Immer and Why You Shouldn’t"
+metaTitle: "Write Asynchronous Producers in Immer and Why You Shouldn’t"
+metaDescription: "produce directly supports async code so you won't have to directly use createDraft and finishDraft"
 ---
 
-# 11. Write Asynchronous Producers in Immer and Why You Shouldn’t
+## 11. Write Asynchronous Producers in Immer and Why You Shouldn’t
 
 [Video](https://egghead.io/lessons/react-write-asynchronous-producers-in-immer-and-why-you-shouldn-t)
 
@@ -12,7 +12,7 @@ You can use async producers in Immer but you really shouldn't. If you can split 
 
 ---
 
-`**createDraft` and `finishDraft` are Immer APIs for async producers**
+`**createDraft` and `finishDraft` are Immer APIs for async producers\*\*
 
 A use case for this is when you need to fetch data and update state.
 
@@ -32,7 +32,7 @@ A use case for this is when you need to fetch data and update state.
     	return finishDraft(draft)
     }
 
-`**produce` directly supports async code so you won't have to directly use `createDraft` and `finishDraft`**
+`**produce` directly supports async code so you won't have to directly use `createDraft` and `finishDraft`\*\*
 
 The low level api is if you are building a library with immer.
 

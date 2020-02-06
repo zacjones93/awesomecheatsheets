@@ -1,10 +1,10 @@
 ---
-title: '09. Update Immutable State with React useReducer through Immer'
-metaTitle: '09. Update Immutable State with React useReducer through Immer'
-metaDescription: 'You can use useReducer like functions with Immer!'
+title: "Update Immutable State with React useReducer through Immer"
+metaTitle: "Update Immutable State with React useReducer through Immer"
+metaDescription: "You can use useReducer like functions with Immer!"
 ---
 
-# 13. Update Immutable State with React useReducer through Immer
+## 13. Update Immutable State with React useReducer through Immer
 
 [Video](https://egghead.io/lessons/react-update-immutable-state-with-react-usereducer-through-immer)
 

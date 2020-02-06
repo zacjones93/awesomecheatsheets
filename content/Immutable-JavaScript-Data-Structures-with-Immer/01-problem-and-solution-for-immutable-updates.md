@@ -1,10 +1,8 @@
 ---
-title: '01. Problem and Solution for Immutable Updates'
-metaTitle: '01. Problem and Solution for Immutable Updates'
-metaDescription: 'Capture Application Logic in Pure Functions to Create Immutable State.'
+title: "Problem and Solution for Immutable Updates"
+metaTitle: "Problem and Solution for Immutable Updates"
+metaDescription: "Capture Application Logic in Pure Functions to Create Immutable State."
 ---
-
-# The problem (and solution) on deep immutable state updates
 
 ## 02. Capture Application Logic in Pure Functions to Create Immutable State
 
@@ -90,7 +88,7 @@ Maintaining immutability is a pain when you have to spread objects all the way d
 
 [Video](https://egghead.io/lessons/javascript-simplify-deep-state-updates-using-immer-produce)
 
- [00:00](https://egghead.io/lessons/javascript-simplify-deep-state-updates-using-immer-produce#t=0) That stuff wasn't easy. If reading back a logic isn't trivial. For example, when you think about what's happening here, in `addGift`  is that we're just expressing that we want to add something to our collection. **But instead what we're doing, every object, every parent in that data tree, we generate a new version for that.** For toggling the reservation, it's even worse.
+[00:00](https://egghead.io/lessons/javascript-simplify-deep-state-updates-using-immer-produce#t=0) That stuff wasn't easy. If reading back a logic isn't trivial. For example, when you think about what's happening here, in `addGift` is that we're just expressing that we want to add something to our collection. **But instead what we're doing, every object, every parent in that data tree, we generate a new version for that.** For toggling the reservation, it's even worse.
 
     // soo much spreading..
     **return {
@@ -130,7 +128,7 @@ Maintaining immutability is a pain when you have to spread objects all the way d
 
 It's much nicer to write code that is mutable that way you are working with the object itself and don't have so much boiler plate
 
- **This is where Immer comes in. `produce` is the main api you will use with immer.**
+**This is where Immer comes in. `produce` is the main api you will use with immer.**
 
     export function addGift(state, id, description, image) {
     	// just .push onto the array and you're good to go

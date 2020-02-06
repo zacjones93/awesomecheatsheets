@@ -1,10 +1,10 @@
 ---
-title: '03. Simplify Immer Producer Functions using Currying'
-metaTitle: '03. Simplify Immer Producer Functions using Currying'
-metaDescription: 'We can use patterns like currying in JavaScript to simplify our Producer functions.'
+title: "Simplify Immer Producer Functions using Currying"
+metaTitle: "Simplify Immer Producer Functions using Currying"
+metaDescription: "We can use patterns like currying in JavaScript to simplify our Producer functions."
 ---
 
-# 06. Simplify Immer Producer Functions using Currying
+## 06. Simplify Immer Producer Functions using Currying
 
 [Video](https://egghead.io/lessons/javascript-simplify-immer-producer-functions-using-currying)
 
@@ -74,4 +74,3 @@ so a real implementation would look like:
     })
 
 you can access original state with `original` from immer
-

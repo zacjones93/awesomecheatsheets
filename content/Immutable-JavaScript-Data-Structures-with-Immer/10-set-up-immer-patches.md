@@ -1,10 +1,8 @@
 ---
-title: '10. Set up Immer Patches'
-metaTitle: '10. Set up Immer Patches'
-metaDescription: 'patches describe the minimal difference between two versions of the state.'
+title: "Set up Immer Patches"
+metaTitle: "Set up Immer Patches"
+metaDescription: "patches describe the minimal difference between two versions of the state."
 ---
-
-# Set up Immer Patches
 
 ## 14. Capture Patches to Distribute Changes in App State with Immer produceWithPatches
 
@@ -32,7 +30,7 @@ immer exposes the patches api through `produceWithPatches`
 
 Way more efficient to communicate with a server using patches then the whole state
 
-Access patches using the below code, it *Just Works* and now you have access to individual patches in your state
+Access patches using the below code, it _Just Works_ and now you have access to individual patches in your state
 
     // `produceWithPatches` wraps our current recipe reducer
     export const patchGeneratingGiftsReducer = produceWithPatches(giftsRecipe)
@@ -65,7 +63,6 @@ When a client connects, whenever an action is made on that client, **it will als
       })
 
 You send messages with `useSocket` - not the focus of the lesson.
-
 
 ## 16. Apply Patches using Immer applyPatches to Synchronize State across Clients
 
@@ -109,6 +106,7 @@ refactor from an array to a collection of objects where the id is the key.
           }
 
 ## 18. Compress the Immer Patch History by Replaying Patches on a setInterval
+
 [Video](https://egghead.io/lessons/react-compress-the-immer-patch-history-by-replaying-patches-on-a-setinterval)
 
 The history on the server is ever and ever growing since we are just pushing onto an array each patch that is received.
