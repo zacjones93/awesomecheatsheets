@@ -4,6 +4,8 @@ metaTitle: "Composable Gatsby Themes | Awesome Cheatsheets"
 metaDescription: "Awesome cheatsheet for the Composable Gatsby Themes course"
 ---
 
+import CheatsheetAuthor from '../src/CheatsheetAuthor.js';
+
 ## About
 
 This repo contains notes from [Chris Biscardi](https://www.christopherbiscardi.com/)'s [gatsby themes course](https://egghead.io/lessons/gatsby-set-up-a-shopify-account).
@@ -30,3 +32,11 @@ After everything's been split up, you will build a deeper understanding of paren
 ### Notice
 
 ⚠️You can click the time stamps to view that part of the lesson⚠️
+
+## Cheatsheet by
+
+<CheatsheetAuthor 
+    name="Ian Jones"
+    twitterUrl="https://twitter.com/_jonesian"
+    githubUrl="https://github.com/theianjones"
+/>

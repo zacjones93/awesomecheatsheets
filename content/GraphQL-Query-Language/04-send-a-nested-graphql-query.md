@@ -40,7 +40,7 @@ This allows us to have some flexibility when we are sending a query.
 
 A photo may have more than one field associated with it. Then we can request just the fields that we want with our GraphQL query.
 
-## Personla Take
+## Personal Take
 
 In a system like REST, you can only pass a single set of arguments, the query parameters and URL segments in your request.
 

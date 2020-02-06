@@ -4,6 +4,8 @@ metaTitle: "Automate Daily Development Tasks with Bash | Awesome Cheatsheets"
 metaDescription: "Awesome cheatsheet for the Automate Daily Development Tasks with Bash course"
 ---
 
+import CheatsheetAuthor from '../src/CheatsheetAuthor.js';
+
 ## About
 
 This repo contains notes from [Cameron Nokes](https://egghead.io/instructors/cameron-nokes)'s [bash course](https://egghead.io/courses/automate-daily-development-tasks-with-bash).
@@ -27,3 +29,11 @@ This course covers:
 - Finding files and text patterns in files
 - Creating and running scripts
 - Language syntax like variables and conditionals.
+
+## Cheatsheet by:
+
+<CheatsheetAuthor 
+    name="Lauro Silva"
+    twitterUrl="https://twitter.com/laurosilvacom"
+    githubUrl="https://github.com/laurosilvacom"
+/>
