@@ -6,7 +6,9 @@ metaDescription: "With Structural sharing, we can reuse all the pieces of the pr
 
 # Render and optimize immutable data in React
 
-## 04. [Render Immutable Data using React](https://egghead.io/lessons/react-render-immutable-data-using-react)
+## 04. Render Immutable Data using React
+
+[Video](https://egghead.io/lessons/react-render-immutable-data-using-react)
 
 functions for updating objects with immer 'just work' with react state - state is just an object.
 
@@ -47,7 +49,9 @@ you now have immutable state updates with `setState` using `addGift` and `toggle
 
 ---
 
-## 05. [Profile React Rendering and Optimize with memo to Leverage Structural Sharing](https://egghead.io/lessons/react-profile-react-rendering-and-optimize-with-memo-to-leverage-structural-sharing)
+## 05. Profile React Rendering and Optimize with memo to Leverage Structural Sharing
+
+[Video](https://egghead.io/lessons/react-profile-react-rendering-and-optimize-with-memo-to-leverage-structural-sharing)
 
 Since parts of the state tree that haven’t changed compared to the previous state, are shared, we can optimize. This lesson uses the “**memo**” and “**useCallbac**k” functions from React to benefit from structural sharing.
 
