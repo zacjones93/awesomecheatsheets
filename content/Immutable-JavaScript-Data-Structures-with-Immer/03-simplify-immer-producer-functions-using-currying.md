@@ -4,7 +4,9 @@ metaTitle: '03. Simplify Immer Producer Functions using Currying'
 metaDescription: 'We can use patterns like currying in JavaScript to simplify our Producer functions.'
 ---
 
-# 06. [Simplify Immer Producer Functions using Currying](https://egghead.io/lessons/javascript-simplify-immer-producer-functions-using-currying)
+# 06. Simplify Immer Producer Functions using Currying
+
+[Video](https://egghead.io/lessons/javascript-simplify-immer-producer-functions-using-currying)
 
 Currying is a functional programming pattern that Immer takes advantage of to simplify the boilerplate when using produce. You can separate the arguments into individual functions that receive each argument one at a time and this allows you to eliminate your reference to state.
 
